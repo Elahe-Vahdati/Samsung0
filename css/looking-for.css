@@ -1,0 +1,46 @@
+div.looking-for {
+  width: 100%;
+}
+div.looking-for > h2 {
+  text-align: center;
+  margin: 3% auto;
+  font-family: "SamsungSharpSans", arial, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.2;
+}
+div.search {
+  width: 540px;
+  height: 65px;
+  margin: 20px auto;
+  border-radius: 35px;
+  background-color: rgb(212, 212, 212);
+  color: rgb(17, 17, 17);
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+div.search02 {
+  width: 620px;
+  height: 50px;
+  margin: auto;
+}
+div.search02 > button,
+div.search03 > button {
+  width: auto;
+  height: 35px;
+  margin-left: 15px;
+  border-radius: 35px;
+  border: 1px solid rgb(138, 138, 138);
+  font-size: 12px;
+  padding: 8px 15px;
+}
+div.search02 > button:hover,
+div.search03 > button:hover {
+  background-color: rgb(201, 201, 201);
+}
+div.search03 {
+  width: 320px;
+  height: 50px;
+  margin: auto;
+}

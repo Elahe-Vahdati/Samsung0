@@ -1,0 +1,133 @@
+div.slider {
+  width: 100%;
+  height: 648px;
+  padding: 0 30px;
+}
+.swiper,.
+.swiper2 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.slider2 {
+  width: 100%;
+  height: 357px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+h2.headline {
+  width: 92%;
+  text-align: left;
+  margin: auto;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.33;
+  padding: 32px 24px 28px;
+}
+div.slider2 > div.slider-box {
+  width: 95%;
+  height: 90%;
+  margin: auto;
+}
+
+div.slider2
+  > div.slider-box
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+} */
+div.slider2
+  > div.slider-box
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide {
+  border-radius: 25px;
+}
+div.mySwiper2 > div.swiper-wrapper > div.swiper-slide {
+  background-color: #f3f3f3;
+}
+
+div.mySwiper2 > div.swiper-wrapper > div.swiper-slide > p {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.33;
+  margin-top: 7%;
+  font-size: 13px;
+}
+/* .swiper-button-next,
+.swiper-button-prev {
+  z-index: 100;
+} */
+div.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(102, 102, 102, 0.4);
+  color: rgb(0, 0, 0);
+  transition: 500ms;
+  transform: translateX(-50px);
+}
+div.swiper-button-next:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+div.swiper-button-next::after {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  /* font-weight: 600; */
+  margin: auto;
+}
+div.swiper-button-prev::after {
+  font-size: 16px;
+  color: rgb(255, 250, 250);
+  /* font-weight: 600; */
+  margin-right: 5px;
+}
+div.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(102, 102, 102, 0.4);
+  color: rgb(0, 0, 0);
+  transition: 500ms;
+  transform: translateX(50px);
+}
+div.swiper-button-prev:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

@@ -1,0 +1,41 @@
+.content {
+  position: relative;
+  width: auto;
+  height: 50px;
+}
+p.disclaimer {
+  transform: rotate(-90deg);
+  background: #000;
+  color: #fff;
+  content: ">";
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #000;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 100%;
+  position: absolute;
+  top: 20%;
+  margin-left: 6%;
+  line-height: 24px;
+  left: 0;
+  transition: all 0.25s;
+  font-size: 14px;
+}
+p.disclaimer02 {
+  position: absolute;
+  top: 20%;
+  margin-left: 8.5%;
+  font-size: 20px;
+  color: #363636;
+  font-weight: 700;
+  cursor: pointer;
+}
+.content02 > p {
+  padding: 0 8.5%;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 15px;
+}

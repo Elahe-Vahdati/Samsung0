@@ -1,0 +1,127 @@
+div.wrapper > div.showcase-card {
+  width: 100%;
+  height: 708px;
+}
+div.wrapper > div.showcase-card > div.showcase-card-child01 {
+  width: 32%;
+  height: 720px;
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+}
+
+.top-child {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  width: 448px;
+  height: 56px;
+}
+.top-child > p {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 15px;
+  background-color: #007aff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.bottom-child {
+  position: relative;
+  width: 448px;
+  height: 320px;
+  overflow: hidden;
+  transition: 100ms;
+}
+
+.bottom-child > img {
+  width: 684px;
+  height: 684px;
+  transition: 500ms;
+}
+.bottom-child:hover > img {
+  transform: scale(1.05, 1.05);
+}
+
+div.bottom-child:hover > p.second-line,
+div.bottom-child:hover > p.third-line {
+  transform: translateY(-30px);
+  opacity: 0;
+}
+.bottom-child > a {
+  padding: 10px 24px 11px 24px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 56px);
+  opacity: 0;
+  transition: 500ms;
+}
+.bottom-child:hover > a {
+  transform: translateY(-75px);
+  opacity: 1;
+}
+div.showcase-card-child01-01 {
+  width: 472px;
+  height: 350px;
+  border-radius: 10%;
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.showcase-card-child01-01 > div.bottom-child > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 202px;
+  height: 152px;
+}
+
+.first-line {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.second-line {
+  color: rgb(24, 78, 255);
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+.third-line {
+  color: rgb(39, 39, 39);
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+div.mini-pic {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5%;
+}
+.mini-pic > a.miniA {
+  color: black;
+  font-size: 11px;
+  margin-right: 0 15px;
+}
+a.miniA:hover {
+  font-weight: bold;
+}
+.mini-pic > div > img {
+  transition: 500ms;
+}
+.mini-pic > div:hover > img {
+  transform: scale(1.05, 1.05);
+}

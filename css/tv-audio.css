@@ -1,0 +1,108 @@
+div.tv-audio,
+div.Home-Appliances,
+div.Sustainability {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  color: white;
+  width: 1440px;
+}
+div.Home-Appliances {
+  color: rgb(0, 0, 0);
+}
+
+div.tv-audio > img,
+div.Home-Appliances > img,
+div.Sustainability > img {
+  display: block;
+  margin: auto;
+}
+div.tv-audio > .auto-title,
+div.Home-Appliances > .auto-title,
+div.Sustainability > .auto-title {
+  position: absolute;
+  top: 3%;
+  left: 0;
+  right: 0;
+}
+div.tv-audio > .auto-title h2,
+div.Home-Appliances > .auto-title h2,
+div.Sustainability > .auto-title h2 {
+  /* transform: translate(-50%, -50%); */
+  font-family: "SamsungSharpSans", arial, sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 1.2;
+  color: currentColor;
+  text-align: center;
+}
+div.tv-audio > ul,
+div.Home-Appliances > ul,
+div.Sustainability > ul {
+  display: flex;
+  justify-content: center;
+  vertical-align: top;
+  height: auto;
+  padding: 6px 0;
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  /* left: 50%; */
+}
+div.tv-audio > ul > li,
+div.Home-Appliances > ul > li,
+div.Sustainability > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  min-width: 150px;
+  padding: 9px;
+  border-radius: 50px;
+  text-decoration: dotted;
+  margin: 0 6px;
+}
+
+div.tv-audio > ul > li > button,
+div.Home-Appliances > ul > li > button,
+div.Sustainability > ul > li > button {
+  all: unset;
+  padding: 9px;
+  font-size: 14px;
+  /* color: white; */
+  font-weight: bold;
+}
+
+div.tv-audio > ul > li > button:hover,
+div.Sustainability > ul > li > button:hover {
+  border: 2px dotted rgb(255, 255, 255);
+  text-decoration: 2px underline rgb(255, 255, 255);
+  border-radius: 50px;
+  cursor: pointer;
+}
+div.Home-Appliances > ul > li > button:hover {
+  border: 2px dotted black;
+  text-decoration: 2px underline black;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/* explore */
+div.Explore > div {
+  position: relative;
+  text-align: center;
+}
+
+div.Explore > div > h2 {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "SamsungSharpSans", arial, sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 3;
+  color: currentColor;
+  /* text-align: center; */
+  min-width: 50px;
+  margin: auto;
+}
+div.Explore > div > h2:hover {
+  border-bottom: 2px solid;
+  color: #555;
+}
